@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: vcr;
+    src: url(../font/vcr.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: url(../images/bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    overflow: hidden;
+}
+.scroll {
+    display: flex;
+    justify-content: center;
+}
+.scroll div {
+    display: flex;
+    justify-content: center;
+}
+.scroll div img {
+    padding-top: 100px;
+    width: 370px;
+    animation: opac 500ms;
+}
+@keyframes opac {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+}
+div a {
+    display: flex;
+    justify-content: center;
+}
+.arrow img {
+    width: 40px;
+    animation: opac 500ms;
+}
+.audioBut {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+
+    padding-top: 0px;
+}
+.audioBut div {
+    display: flex;
+    flex-direction: column; 
+
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+}
+.audioBut img {
+    padding-top: 0px;
+    width: 40px;
+    margin: 10px;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 320px) {
+.scroll div img {
+    padding-top: 100px;
+    width: 315px;
+}
+}
+
+@media only screen and (min-width: 767px) {
+.scroll div img {
+    padding-top: 100px;
+    width: 700px;
+}
+.arrow img {
+    width: 90px;
+}
+.audioBut div img {
+    width: 80px; 
+}
+}
+
+@media only screen and (min-width: 1366px) {
+.scroll div img {
+    padding-top: 10px;
+    width: 600px;
+}
+.arrow img {
+    width: 70px;
+}
+
+.audioBut div img {
+    width: 40px; 
+}
+}
+
+@media only screen and (min-width: 1920px) {
+.scroll div img {
+    padding-top: 50px;
+    width: 800px;
+}
+.audioBut div img {
+    width: 70px; 
+}
+}

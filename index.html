@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/flavicon.png">     
+        <title>CountErcat</title>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- HUD -->
+        <div class="hud">
+            <p>
+                COUNTER: 0
+            </p>
+            <p>
+                STEPS: 0
+            </p>
+            <p>
+                TIME: 0
+            </p>
+        </div>
+
+        <!-- LOGO -->
+        <div class="logo">            
+            <div>
+            <img src="images/logo.png" alt="CountErcat">            
+            <a href="https://it.linkedin.com/in/giacomo-borsellino-4039071b7" target="_blank"><p>©2021 Giacomo Borsellino</p></a>
+            </div>
+        </div>
+
+        <!-- START -->
+        <div class="start">
+            <a href="pages/scroll.html"><img src="images/shield.png" alt="shield"/></a>
+            <a href="pages/scroll.html"><p> START</p></a>        
+        </div>
+        
+        <!-- AUDIO -->
+        <div class="audioBut">
+        <img onclick="playAudio()" src="images/volumeUp.png" alt="audio up"/>
+        <img onclick="pauseAudio()" src="images/volumeDown.png" alt="audio down"/>
+        <audio id="audio" class="audio" src="sound/chrono.ogg" loop autoplay></audio>
+        </div>
+
+        <!-- FLOOR -->
+        <div class="floor">
+            <img src="images/floor.png" alt="floor"/>
+        </div>
+
+        <!-- SCRIPT -->
+        <script src="js/autoplay.js"></script>
+
+        <!-- If you've come this far, let me tell you something: you are a beautiful person :) -->
+    </body>
+</html>

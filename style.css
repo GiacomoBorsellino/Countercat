@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: vcr;
+    src: url(font/vcr.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: url(images/stars.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: vcr;
+    color: white;
+    overflow: hidden;
+    animation: intro 4s;
+}
+@keyframes intro {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.hud {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 25px;
+    font-size: 21px;
+}
+.hud p {
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    margin: 0px;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.logo div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo div img {
+    width: 350px;
+    justify-content: center;
+}
+.logo p {
+    text-align: center;
+    font-size: 15px;
+}
+.logo a:active {
+    color: white;
+    text-decoration: none;
+}
+.logo a:link {
+    color: white;
+    text-decoration: none;
+}
+.logo a:visited {
+    color: white;
+    text-decoration: none;
+}
+.logo a:hover {
+    text-shadow: 2px 2px white;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.start img {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    width: 20px;
+}
+.start p {
+    font-size: 20px;
+}
+.start a:active {
+    color: white;
+    text-decoration: none;
+}
+.start a:link {
+    color: white;
+    text-decoration: none;
+}
+.start a:visited {
+    color: white;
+    text-decoration: none;
+}
+.start a:hover {
+text-shadow: 2px 2px white;
+}
+.audioBut {
+    display: flex;
+    justify-content: center;
+}
+.audioBut img {
+    width: 40px;
+    margin: 10px;
+}
+.floor {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    position: relative;
+    padding-top: 80px;
+}
+.floor img {
+    width: 900px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 320px) {
+.hud {
+    font-size: 18px;
+}  
+.logo div img {
+    width: 300px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.hud {
+    font-size: 25px;
+}
+.floor {
+    padding-top: 250px;
+}
+.logo img {
+    width: 440px;
+}
+.logo p {
+    font-size: 20px;
+}
+.start {
+    padding-top: 80px;
+}
+.start img {
+    width: 30px;
+}
+.start p {
+    font-size: 30px;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+.floor {
+    padding-top: 330px;
+}
+.floor img {
+    width: 1025px;
+}
+.logo img {
+    padding-top: 140px;
+    width: 540px;
+}
+.logo p {
+    font-size: 30px;
+}
+.start {
+    padding-top: 90px;
+}
+.start img {
+    width: 50px;
+}
+.start p {
+    font-size: 50px;
+}
+}
+
+@media only screen and (min-width: 1365px) {
+.hud {
+    font-size: 17px;
+}  
+.floor {
+    padding-top: 20px;
+}
+.floor img {
+    width: 1366px;
+}
+.logo div img {
+    padding-top: 0px;
+    width: 500px;
+}
+.logo p {
+    font-size: 20px;
+}
+.start {
+    padding-top: 20px;
+}
+.start img {
+    width: 20px;
+}
+.start p {
+    font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+.hud {
+    font-size: 30px;
+}  
+.floor {
+    padding-top: 110px;
+}
+.floor img {
+    width: 1920px;
+}
+.logo div img {
+    padding-top: 30px;
+    width: 700px;
+}
+.logo p {
+    font-size: 25px;
+}
+.start {
+    padding-top: 50px;
+}
+.start img {
+    width: 40px;
+}
+.start p {
+    font-size: 40px;
+}
+}
+
+
+
+

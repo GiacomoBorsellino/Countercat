@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../css/styleGame.css">
+        <link rel="icon" href="../images/flavicon.png">     
+        <title>CountErcat</title>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- HUD -->
+        <div class="hud">
+            <p class="counter">
+                COUNTER: 0
+            </p>
+            <p class="world">
+                STEPS: 0
+            </p>
+            <p class="timer">
+                TIME: 0
+            </p>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="button">            
+            <div>
+            <img id="plus" src="../images/meno.png" alt="minus">     
+            <img id="minus" src="../images/più.png" alt="plus">     
+            </div>
+        </div>
+
+        <!-- COIN -->
+        <div class="coin">
+            <a href="https://it.linkedin.com/in/giacomo-borsellino-4039071b7" target="_blank"><img class="theme" src="../images/heart.png" alt="LinkedIn"/></a>
+            <a href="../index.html"><img class="coins" src="../images/coin.png" alt="home"/></a>
+            <img class="reset" src="../images/reset.png" alt="reset"/>
+        </div>
+
+        <!-- AUDIO -->
+        <div class="audioBut">
+        <img onclick="playAudio()" src="../images/volumeUp.png" alt="audio up"/>
+        <img onclick="pauseAudio()" src="../images/volumeDown.png" alt="audio down"/>
+        <audio id="audio" class="audio" src="../sound/chrono3.ogg" loop autoplay></audio>    
+        </div>
+
+        <!-- FLOOR -->
+        <div class="floor">
+            <img src="../images/floor1.png" alt="floor"/>
+        </div>
+
+ 
+
+        <!-- SCRIPT -->
+        <script src="../js/count.js"></script>
+        <script src="../js/timer.js"></script>
+        <script src="../js/reset.js"></script>
+        <script src="../js/daylight.js"></script>
+        <script src="../js/autoplay.js"></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="../css/styleScrollBad.css">
+        <link rel="icon" href="../images/flavicon.png">     
+        <title>CountErcat</title>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <!-- SCROLL -->
+        <div class="scroll">            
+            <div>
+            <img class="scroll1" src="../images/scroll4.png" alt="scroll">   
+            <img class="scroll2" src="../images/scroll5.png" alt="scroll">  
+            <img class="scroll3" src="../images/scroll6.png" alt="scroll">  
+            </div>
+        </div>
+
+        <!-- ARROW -->
+        <div class="arrow">
+            <a href="../index.html"><img src="../images/arrow.png" alt="arrow"/></a>
+        </div>
+        
+        <!-- AUDIO -->
+        <div class="audioBut">
+            <div>
+                <img onclick="playAudio()" src="../images/volumeUp.png" alt="audio up"/>
+                <img onclick="pauseAudio()" src="../images/volumeDown.png" alt="audio down"/>
+                <audio id="audio" class="audio" src="../sound/chrono4.ogg" loop autoplay></audio>         
+            </div>
+        </div>
+
+        <!-- SCRIPT -->
+        <script src="../js/autoplay.js"></script>
+        <script src="../js/scrolling.js"></script>
+
+    </body>
+</html>
