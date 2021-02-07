@@ -1,7 +1,7 @@
 # Countercat
- I made this little game like a project for demonstrate my basis skills on Javascript.
+ I made this little game like a project for demonstrate my basic skills on Javascript.
  
- -------------------------
+  -------------------------
 Copyright notes:
 
 This is a no profit project.
