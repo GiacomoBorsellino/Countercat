@@ -1,8 +1,8 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/GiacomoBorsellino/Countercat">
-    <img src="/images/ororo-logo.png" alt="Logo" width="200">
+  <a href="https://github.com/GiacomoBorsellino/Countercat/">
+    <img src="https://github.com/GiacomoBorsellino/Countercat/blob/main/images/logo.png" alt="Logo" width="200">
   </a>
 
   <h3 align="center">CounterCat</h3>
