@@ -11,7 +11,7 @@
     Inizialmente nato con lo scopo di sondare le mie capacità con la creazione di funzioni base in Javascript, CounterCat è diventato un vero e proprio piccolo gioco "tap and play".
   </p>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/GiacomoBorsellino/Ororo/main/src/images/Immagine.jpg" alt="screenshot"   width="80%">
+    <img src="https://raw.githubusercontent.com/GiacomoBorsellino/Countercat/main/images/Immagine.jpg" alt="screenshot"   width="80%">
   </p>
 </p>
 
