@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/GiacomoBorsellino/Countercat/">
-    <img src="https://github.com/GiacomoBorsellino/Countercat/blob/main/images/volumeDown.png" alt="Logo" width="200">
+    <img src="images/logo.png" alt="Logo" width="200">
   </a>
 
   <h3 align="center">CounterCat</h3>
